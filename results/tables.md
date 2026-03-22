@@ -41,3 +41,5 @@
 | Weekends only | 1044 | 1.003 | 1.003 | 1.003 | 1.002 | 1.005 | 1.000 |
 | 2015-2019 | 1826 | 0.994 | 0.996 | 0.995 | 0.996 | 0.995 | 1.000 |
 | 2020-2024 | 1827 | 0.988 | 0.987 | 0.992 | 0.990 | 0.990 | 0.223 |
+
+Values are rate ratios (RR) relative to Taian (reference). * Holm-corrected P<0.05. ** Holm-corrected P<0.01. The holiday-adjacent exclusion analysis (S1) did not converge (convergence flag=False); its results should not be used for inference.
