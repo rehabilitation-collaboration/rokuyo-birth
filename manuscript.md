@@ -214,8 +214,16 @@ All data used in this study are publicly available from the Japanese e-Stat syst
 
 **Figure 1.** Mean daily births by rokuyo, stratified by birth place (2015–2024). Error bars represent standard errors of the mean. Dashed horizontal line indicates the Taian mean. Panels: (A) Total, (B) Hospital, (C) Clinic, (D) Midwifery home.
 
+![Figure 1](results/fig1_rokuyo_barplot.png)
+
 **Figure 2.** Heatmap of mean daily births by rokuyo (rows) and day of week (columns) for total births (2015–2024). Day-of-week variation dominates the pattern, with no visible rokuyo × day-of-week interaction.
+
+![Figure 2](results/fig2_rokuyo_dow_heatmap.png)
 
 **Figure 3.** Forest plot of rokuyo rate ratios (95% CI) from negative binomial regression, stratified by birth place. Reference: Taian. Dashed vertical line at RR=1.0.
 
+![Figure 3](results/fig3_forest_plot.png)
+
 **Figure 4.** Temporal trend of rokuyo rate ratios by 5-year blocks (2015–2019 vs. 2020–2024). No significant change in effect magnitude was detected.
+
+![Figure 4](results/fig4_temporal_trend.png)

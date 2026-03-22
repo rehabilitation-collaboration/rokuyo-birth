@@ -1,7 +1,9 @@
 """Convert manuscript.md to PDF via weasyprint."""
+from pathlib import Path
 import markdown
 from weasyprint import HTML
 
+BASE_DIR = Path(__file__).parent
 INPUT = "manuscript.md"
 OUTPUT = "output/manuscript.pdf"
 
@@ -35,6 +37,7 @@ th, td {
 th { background-color: #f0f0f0; font-weight: bold; }
 hr { border: none; border-top: 1px solid #ccc; margin: 1.5em 0; }
 sup { font-size: 0.8em; }
+img { max-width: 100%; height: auto; margin: 1em 0; }
 """
 
 with open(INPUT, encoding="utf-8") as f:
@@ -48,5 +51,5 @@ html_doc = f"""<!DOCTYPE html>
 <body>{html_body}</body>
 </html>"""
 
-HTML(string=html_doc).write_pdf(OUTPUT)
+HTML(string=html_doc, base_url=str(BASE_DIR)).write_pdf(OUTPUT)
 print(f"PDF generated: {OUTPUT}")
