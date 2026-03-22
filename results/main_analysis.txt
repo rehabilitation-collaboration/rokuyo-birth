@@ -1,0 +1,87 @@
+======================================================================
+MAIN ANALYSIS: Negative Binomial Regression
+Rokuyo effect on daily births (2015-2024)
+Reference category: Taian (most auspicious day)
+Covariates: day-of-week, holiday, month, year (linear trend)
+======================================================================
+
+[All birth places combined]
+--- TOTAL ---
+N observations: 3653
+Log-likelihood: -24102.6
+AIC: 48257.3  BIC: 48418.5
+Alpha (overdispersion): 0.0056
+Converged: True
+
+Rokuyo           RR           95% CI    p-value    p(Holm)  Sig
+--------------------------------------------------------------
+Taian         1.000      (reference)
+Butsumetsu   0.9933 (0.9847-1.0020)     0.1312     0.2513     
+Senbu        0.9930 (0.9844-1.0018)     0.1172     0.2513     
+Sensho       0.9914 (0.9828-1.0001)     0.0526     0.2106     
+Shakku       0.9909 (0.9823-0.9996)     0.0401     0.2005     
+Tomobiki     0.9923 (0.9837-1.0010)     0.0838     0.2513     
+
+[Hospital births only]
+--- HOSPITAL ---
+N observations: 3653
+Log-likelihood: -22413.0
+AIC: 44878.0  BIC: 45039.2
+Alpha (overdispersion): 0.0074
+Converged: True
+
+Rokuyo           RR           95% CI    p-value    p(Holm)  Sig
+--------------------------------------------------------------
+Taian         1.000      (reference)
+Butsumetsu   0.9932 (0.9831-1.0034)     0.1893     0.3445     
+Senbu        0.9926 (0.9825-1.0028)     0.1545     0.3445     
+Sensho       0.9897 (0.9797-0.9998)     0.0465     0.1863     
+Shakku       0.9892 (0.9792-0.9994)     0.0373     0.1863     
+Tomobiki     0.9918 (0.9818-1.0020)     0.1148     0.3445     
+
+[Clinic births only]
+--- CLINIC ---
+N observations: 3653
+Log-likelihood: -21052.0
+AIC: 42156.0  BIC: 42317.3
+Alpha (overdispersion): 0.0045
+Converged: True
+
+Rokuyo           RR           95% CI    p-value    p(Holm)  Sig
+--------------------------------------------------------------
+Taian         1.000      (reference)
+Butsumetsu   0.9931 (0.9849-1.0014)     0.1035     0.4489     
+Senbu        0.9930 (0.9848-1.0013)     0.0980     0.4489     
+Sensho       0.9931 (0.9849-1.0014)     0.1018     0.4489     
+Shakku       0.9928 (0.9846-1.0011)     0.0898     0.4489     
+Tomobiki     0.9931 (0.9849-1.0014)     0.1028     0.4489     
+
+[Midwifery births only (negative control: no C-sections)]
+--- MIDWIFERY ---
+N observations: 3653
+Log-likelihood: -9819.5
+AIC: 19690.9  BIC: 19852.2
+Alpha (overdispersion): 0.0036
+Converged: True
+
+Rokuyo           RR           95% CI    p-value    p(Holm)  Sig
+--------------------------------------------------------------
+Taian         1.000      (reference)
+Butsumetsu   0.9893 (0.9580-1.0216)     0.5109     1.0000     
+Senbu        1.0010 (0.9694-1.0336)     0.9533     1.0000     
+Sensho       0.9778 (0.9467-1.0098)     0.1714     0.5142     
+Shakku       0.9740 (0.9430-1.0059)     0.1092     0.4370     
+Tomobiki     0.9610 (0.9304-0.9926)     0.0160     0.0802     
+
+--- DAY-OF-WEEK EFFECTS (Total, for comparison) ---
+Day              RR           95% CI    p-value
+------------------------------------------------
+Monday        1.000      (reference)
+Friday       1.0160 (1.0064-1.0256)     0.0010
+Saturday     0.7438 (0.7368-0.7509)     0.0000
+Sunday       0.6468 (0.6407-0.6530)     0.0000
+Thursday     1.0138 (1.0043-1.0234)     0.0043
+Tuesday      1.0896 (1.0794-1.0999)     0.0000
+Wednesday    1.0491 (1.0392-1.0590)     0.0000
+
+Holiday effect: RR=0.7150 (0.7065-0.7235), p=0.0000

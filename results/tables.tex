@@ -1,0 +1,64 @@
+% Tables for Rokuyo x Birth Analysis
+
+% Table 1: Descriptive Statistics
+
+\begin{table}[htbp]
+\centering
+\caption{Mean daily births (SD) by rokuyo and birth place, 2015--2024}
+\label{tab:descriptive}
+\begin{tabular}{lrcccc}
+\toprule
+Rokuyo & N days & Total & Hospital & Clinic & Midwifery \\
+\midrule
+Taian & 609 & 2345.6 (546.4) & 1271.5 (338.9) & 1057.9 (215.1) & 12.9 (4.7) \\
+Shakku & 609 & 2326.9 (522.4) & 1260.0 (325.0) & 1051.0 (205.4) & 12.5 (4.8) \\
+Sensho & 610 & 2335.3 (533.2) & 1265.4 (335.2) & 1053.9 (205.7) & 12.6 (4.7) \\
+Tomobiki & 608 & 2342.7 (548.4) & 1271.7 (341.9) & 1055.2 (212.6) & 12.4 (4.5) \\
+Senbu & 607 & 2350.6 (537.2) & 1276.2 (333.8) & 1057.9 (209.7) & 12.9 (4.8) \\
+Butsumetsu & 610 & 2337.9 (529.1) & 1267.3 (329.7) & 1054.4 (206.6) & 12.8 (4.9) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 2: Main Analysis
+
+\begin{table}[htbp]
+\centering
+\caption{Rate ratios (95\% CI) of daily births by rokuyo, negative binomial regression}
+\label{tab:main_analysis}
+\begin{tabular}{lcccc}
+\toprule
+Rokuyo & Total & Hospital & Clinic & Midwifery \\
+\midrule
+Taian & 1.000 (ref) & 1.000 (ref) & 1.000 (ref) & 1.000 (ref) \\
+Shakku & 0.991 (0.982-1.000) & 0.989 (0.979-0.999) & 0.993 (0.985-1.001) & 0.974 (0.943-1.006) \\
+Sensho & 0.991 (0.983-1.000) & 0.990 (0.980-1.000) & 0.993 (0.985-1.001) & 0.978 (0.947-1.010) \\
+Tomobiki & 0.992 (0.984-1.001) & 0.992 (0.982-1.002) & 0.993 (0.985-1.001) & 0.961 (0.930-0.993) \\
+Senbu & 0.993 (0.984-1.002) & 0.993 (0.983-1.003) & 0.993 (0.985-1.001) & 1.001 (0.969-1.034) \\
+Butsumetsu & 0.993 (0.985-1.002) & 0.993 (0.983-1.003) & 0.993 (0.985-1.001) & 0.989 (0.958-1.022) \\
+\midrule
+N & 3653 & 3653 & 3653 & 3653 \\
+AIC & 48257 & 44878 & 42156 & 19691 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 3: Sensitivity Analyses
+
+\begin{table}[htbp]
+\centering
+\caption{Sensitivity analyses: rate ratios by rokuyo (ref: Taian)}
+\label{tab:sensitivity}
+\begin{tabular}{l r c c c c c c}
+\toprule
+Analysis & N & Shakku & Sensho & Tomobiki & Senbu & Butsumetsu & Min $p_\mathrm{Holm}$ \\
+\midrule
+Excl. holiday-adjacent & 3204 & 0.987* & 0.990* & 0.991* & 0.989* & 0.988* & 0.002 \\
+Excl. special periods & 3483 & 0.991 & 0.993 & 0.992 & 0.990* & 0.991 & 0.038 \\
+Weekdays only & 2609 & 0.985* & 0.986* & 0.989* & 0.985* & 0.985* & 0.013 \\
+Weekends only & 1044 & 1.003 & 1.003 & 1.003 & 1.002 & 1.005 & 1.000 \\
+2015-2019 & 1826 & 0.994 & 0.996 & 0.995 & 0.996 & 0.995 & 1.000 \\
+2020-2024 & 1827 & 0.988 & 0.987 & 0.992 & 0.990 & 0.990 & 0.223 \\
+\bottomrule
+\end{tabular}
+\end{table}

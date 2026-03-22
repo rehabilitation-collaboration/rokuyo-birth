@@ -1,0 +1,56 @@
+============================================================
+DESCRIPTIVE STATISTICS: Rokuyo x Birth (2015-2024)
+============================================================
+
+--- Dataset Overview ---
+Date range: 2015-01-01 to 2024-12-31
+Total days: 3653
+Total births: 8,547,321
+Mean daily births: 2339.8 (SD 535.9)
+Median daily births: 2395
+Range: 1,063 - 3,679
+
+--- Mean Daily Births by Rokuyo (Total) ---
+  Taian       :  2345.6 (SD  546.4)  n=609 days
+  Shakku      :  2326.9 (SD  522.4)  n=609 days
+  Sensho      :  2335.3 (SD  533.2)  n=610 days
+  Tomobiki    :  2342.7 (SD  548.4)  n=608 days
+  Senbu       :  2350.6 (SD  537.2)  n=607 days
+  Butsumetsu  :  2337.9 (SD  529.1)  n=610 days
+
+  Reference (Taian) mean: 2345.6
+  Taian       : ratio=1.0000 (+0.00%)
+  Shakku      : ratio=0.9920 (-0.80%)
+  Sensho      : ratio=0.9956 (-0.44%)
+  Tomobiki    : ratio=0.9988 (-0.12%)
+  Senbu       : ratio=1.0021 (+0.21%)
+  Butsumetsu  : ratio=0.9967 (-0.33%)
+
+--- Mean Daily Births by Day of Week (Total) ---
+  Monday      :  2445.7 (SD  438.6)  n=522 days
+  Tuesday     :  2732.8 (SD  392.0)  n=522 days
+  Wednesday   :  2625.6 (SD  378.1)  n=521 days
+  Thursday    :  2536.3 (SD  376.4)  n=522 days
+  Friday      :  2546.0 (SD  396.2)  n=522 days
+  Saturday    :  1869.8 (SD  299.6)  n=522 days
+  Sunday      :  1622.9 (SD  265.8)  n=522 days
+
+--- Mean Daily Births by Rokuyo and Birth Place ---
+  Rokuyo            Total   Hospital     Clinic  Midwifery
+  --------------------------------------------------------
+  Taian            2345.6     1271.5     1057.9       12.9
+  Shakku           2326.9     1260.0     1051.0       12.5
+  Sensho           2335.3     1265.4     1053.9       12.6
+  Tomobiki         2342.7     1271.7     1055.2       12.4
+  Senbu            2350.6     1276.2     1057.9       12.9
+  Butsumetsu       2337.9     1267.3     1054.4       12.8
+
+--- Rokuyo x Day-of-Week Cross-tabulation (Mean Daily Births, Total) ---
+dow         Monday  Tuesday  Wednesday  Thursday  Friday  Saturday  Sunday
+rokuyo                                                                    
+Taian       2489.4   2732.7     2640.9    2558.9  2602.4    1874.2  1610.9
+Shakku      2426.6   2686.1     2555.3    2531.4  2547.9    1907.3  1642.8
+Sensho      2478.5   2709.9     2617.8    2507.9  2503.7    1863.8  1638.0
+Tomobiki    2433.8   2768.3     2640.1    2524.0  2541.7    1843.9  1615.6
+Senbu       2435.5   2777.8     2638.0    2534.9  2542.0    1860.8  1605.7
+Butsumetsu  2410.5   2724.8     2661.4    2561.0  2537.7    1869.6  1624.1

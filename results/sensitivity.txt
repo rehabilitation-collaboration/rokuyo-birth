@@ -1,0 +1,77 @@
+======================================================================
+SENSITIVITY ANALYSES: Rokuyo x Birth (2015-2024)
+Reference: Taian, Model: Negative Binomial
+======================================================================
+
+  [S1: Exclude holiday-adjacent]
+  N=3204 days, AIC=41062, converged=False
+    Butsumetsu   RR=0.9880 (0.9806-0.9954) p(Holm)=0.0061 *
+    Senbu        RR=0.9890 (0.9816-0.9965) p(Holm)=0.0121 *
+    Sensho       RR=0.9901 (0.9827-0.9975) p(Holm)=0.0187 *
+    Shakku       RR=0.9866 (0.9793-0.9941) p(Holm)=0.0022 *
+    Tomobiki     RR=0.9911 (0.9837-0.9986) p(Holm)=0.0198 *
+
+  [S2: Exclude special periods]
+  N=3483 days, AIC=44433, converged=True
+    Butsumetsu   RR=0.9914 (0.9844-0.9984) p(Holm)=0.0531 
+    Senbu        RR=0.9905 (0.9836-0.9975) p(Holm)=0.0382 *
+    Sensho       RR=0.9933 (0.9864-1.0003) p(Holm)=0.0623 
+    Shakku       RR=0.9912 (0.9842-0.9982) p(Holm)=0.0531 
+    Tomobiki     RR=0.9917 (0.9848-0.9987) p(Holm)=0.0531 
+
+  [S3a: Weekdays only]
+  N=2609 days, AIC=34781, converged=True
+    Butsumetsu   RR=0.9849 (0.9753-0.9947) p(Holm)=0.0128 *
+    Senbu        RR=0.9852 (0.9755-0.9949) p(Holm)=0.0128 *
+    Sensho       RR=0.9864 (0.9768-0.9962) p(Holm)=0.0128 *
+    Shakku       RR=0.9854 (0.9758-0.9952) p(Holm)=0.0128 *
+    Tomobiki     RR=0.9889 (0.9793-0.9987) p(Holm)=0.0268 *
+  [S3b: Weekends only]
+  N=1044 days, AIC=12349, converged=True
+    Butsumetsu   RR=1.0046 (0.9941-1.0153) p(Holm)=1.0000 
+    Senbu        RR=1.0015 (0.9908-1.0124) p(Holm)=1.0000 
+    Sensho       RR=1.0026 (0.9920-1.0133) p(Holm)=1.0000 
+    Shakku       RR=1.0025 (0.9919-1.0132) p(Holm)=1.0000 
+    Tomobiki     RR=1.0031 (0.9925-1.0139) p(Holm)=1.0000 
+
+  [S4a: Daytime (9-17h)]
+  N=3653 days, AIC=45679, converged=True
+    Butsumetsu   RR=0.9897 (0.9776-1.0019) p(Holm)=0.2651 
+    Senbu        RR=0.9909 (0.9788-1.0031) p(Holm)=0.2651 
+    Sensho       RR=0.9869 (0.9749-0.9991) p(Holm)=0.1431 
+    Shakku       RR=0.9860 (0.9740-0.9982) p(Holm)=0.1246 
+    Tomobiki     RR=0.9894 (0.9773-1.0016) p(Holm)=0.2651 
+  [S4b: Nighttime]
+  N=3653 days, AIC=40923, converged=True
+    Butsumetsu   RR=0.9975 (0.9911-1.0039) p(Holm)=1.0000 
+    Senbu        RR=0.9963 (0.9899-1.0027) p(Holm)=1.0000 
+    Sensho       RR=0.9966 (0.9902-1.0030) p(Holm)=1.0000 
+    Shakku       RR=0.9965 (0.9901-1.0030) p(Holm)=1.0000 
+    Tomobiki     RR=0.9959 (0.9895-1.0023) p(Holm)=1.0000 
+
+  [S5: 2015-2019]
+  N=1826 days, AIC=24060, converged=True
+    Butsumetsu   RR=0.9949 (0.9842-1.0057) p(Holm)=1.0000 
+    Senbu        RR=0.9964 (0.9857-1.0073) p(Holm)=1.0000 
+    Sensho       RR=0.9956 (0.9849-1.0064) p(Holm)=1.0000 
+    Shakku       RR=0.9936 (0.9829-1.0044) p(Holm)=1.0000 
+    Tomobiki     RR=0.9951 (0.9844-1.0060) p(Holm)=1.0000 
+  [S5: 2020-2024]
+  N=1827 days, AIC=23832, converged=True
+    Butsumetsu   RR=0.9905 (0.9781-1.0030) p(Holm)=0.3587 
+    Senbu        RR=0.9901 (0.9777-1.0026) p(Holm)=0.3587 
+    Sensho       RR=0.9872 (0.9749-0.9997) p(Holm)=0.2231 
+    Shakku       RR=0.9879 (0.9756-1.0004) p(Holm)=0.2334 
+    Tomobiki     RR=0.9921 (0.9797-1.0046) p(Holm)=0.3587 
+
+--- SUMMARY: Any significant rokuyo effect across analyses? ---
+Analysis                             Min p(Holm)  Significant?
+--------------------------------------------------------------
+S1: Exclude holiday-adjacent              0.0022           YES
+S2: Exclude special periods               0.0382           YES
+S3a: Weekdays only                        0.0128           YES
+S3b: Weekends only                        1.0000            No
+S4a: Daytime (9-17h)                      0.1246            No
+S4b: Nighttime                            1.0000            No
+S5: 2015-2019                             1.0000            No
+S5: 2020-2024                             0.2231            No
