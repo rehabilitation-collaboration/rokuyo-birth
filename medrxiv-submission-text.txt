@@ -1,0 +1,168 @@
+========================================
+medRxiv submission text
+Rokuyo x Birth - Version 1
+========================================
+
+Left sidebar pages:
+  1. Submission Guide
+  2. Manuscript Basics
+  3. Abstract and Author Declarations
+  4. Author list
+  5. Distribution/Reuse Options
+  6. Files Metadata
+  7. Manuscript Files
+  8. Submission Proofing
+
+
+============================================================
+Page 2: Manuscript Basics
+============================================================
+
+------------------------------------------------------------
+*Subject Area  dropdown
+------------------------------------------------------------
+Epidemiology
+
+------------------------------------------------------------
+*Title  text field
+------------------------------------------------------------
+Rokuyo and Daily Birth Patterns in Japan: A Negative Binomial Regression Analysis of 8.5 Million Births (2015-2024)
+
+
+============================================================
+Page 3: Abstract and Author Declarations
+============================================================
+
+------------------------------------------------------------
+*Abstract:  text area
+  Note: plus-minus sign must be entered as &[plusmn]
+------------------------------------------------------------
+Background: Rokuyo is a six-day auspiciousness cycle deeply embedded in Japanese culture, with documented effects on behaviors such as hospital discharge timing and wedding scheduling. While auspicious-day preferences have been shown to influence birth timing in Taiwan and China, no study has examined whether rokuyo affects daily birth patterns in Japan.
+
+Methods: We conducted a retrospective ecological study using national vital statistics from Japan's e-Stat system (2015-2024, N=8,547,321 births across 3,653 days). Negative binomial regression estimated rate ratios (RR) for each rokuyo day relative to Taian (most auspicious), adjusting for day-of-week, national holidays, month, and year trend. Subgroup analyses stratified by birth place (hospital, clinic, midwifery home). Five sensitivity analyses assessed robustness: exclusion of holiday-adjacent days, exclusion of special periods (New Year, Golden Week, Obon), weekday/weekend stratification, daytime/nighttime stratification, and temporal trend (5-year blocks). Holm correction was applied for multiple comparisons.
+
+Results: In the primary analysis, no rokuyo day showed a statistically significant difference in birth count after Holm correction (all RR 0.991-0.993 relative to Taian; all corrected P>0.20). Day-of-week effects were far larger (Tuesday RR=1.090, +9.0% vs. Monday; Sunday RR=0.647, -35.3%). However, sensitivity analysis restricted to weekdays revealed a statistically significant rokuyo effect: all non-Taian days showed 1.1-1.5% fewer births than Taian (RR 0.985-0.989; all Holm-corrected P<0.03). This effect was absent on weekends (all RR~1.00; all P=1.0), absent at nighttime (all P=1.0), and showed a non-significant daytime trend (P=0.12-0.27). Subgroup analysis of midwifery homes (where cesarean sections are not performed) showed no significant rokuyo effect. No temporal change was detected between 2015-2019 and 2020-2024.
+
+Conclusions: The primary analysis found no significant rokuyo effect on daily birth patterns in Japan. However, sensitivity analysis restricted to weekdays revealed a statistically significant but clinically negligible effect, detectable only when scheduled deliveries are possible. The effect size (1.1-1.5% excess births on Taian) is substantially smaller than effects observed for weddings (Butsumetsu avoidance: -95%) or hospital discharge (Taian preference: +34%), suggesting that medical management of childbirth substantially constrains the influence of calendar-based superstitions on birth timing.
+
+------------------------------------------------------------
+*Author Approval:  checkbox
+------------------------------------------------------------
+[x] This manuscript has been seen and approved by all listed authors.
+
+------------------------------------------------------------
+checkbox
+------------------------------------------------------------
+[x] This manuscript has not been published by a journal.
+
+------------------------------------------------------------
+*Competing Interests:
+------------------------------------------------------------
+(o) The authors have declared no competing interest.
+
+------------------------------------------------------------
+*Declarations:
+------------------------------------------------------------
+
+--- Declaration 1 ---
+  [x] Yes
+
+--- Declaration 2 ---
+  [x] Yes
+
+  Does the study describe the use of any human data...?
+  (o) Yes
+
+  Did this work use ONLY data that were openly available to the public...?
+  (o) Yes
+
+  Text field:
+This study used only openly available aggregate birth data from the Japanese Ministry of Health, Labour and Welfare Population Dynamics Statistics, accessed via the e-Stat API. The data are freely downloadable without application or registration at: https://www.e-stat.go.jp/ (statistical table ID 0003411915)
+
+--- Declaration 3 ---
+  [x] Yes
+
+--- Declaration 4 ---
+  [x] Yes
+
+  Is this a prospective interventional study?
+  (o) No
+
+--- Declaration 5 ---
+  [x] Yes
+
+--- Declaration 6 ---
+  [x] Yes
+
+------------------------------------------------------------
+*Data Availability Statement:
+------------------------------------------------------------
+All data used in this study are publicly available from the Japanese e-Stat system (https://www.e-stat.go.jp/, statistical table ID 0003411915). Analysis code is available at https://github.com/rehabilitation-collaboration/rokuyo-birth.
+
+------------------------------------------------------------
+Data Availability Links:
+------------------------------------------------------------
+1: https://www.e-stat.go.jp/
+2: https://github.com/rehabilitation-collaboration/rokuyo-birth
+
+------------------------------------------------------------
+*Funding Statement:
+------------------------------------------------------------
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+------------------------------------------------------------
+Clinical Protocols:
+------------------------------------------------------------
+(leave blank)
+
+
+============================================================
+Page 4: Author list
+============================================================
+
+------------------------------------------------------------
+[Add Author]
+------------------------------------------------------------
+First Name: Mizuki
+Last Name: Shirai
+Degree: MHS
+Email: reha-collab@manabu-lab.com
+Institution: Specified Nonprofit Corporation Rehabilitation Collaboration
+Country: Japan
+ORCID: 0009-0005-3615-0670
+Corresponding Author: Yes
+
+NOTE: After adding, click [I AM THIS AUTHOR] button (top right).
+      Fix email and institution name manually if auto-filled incorrectly.
+
+
+============================================================
+Page 5: Distribution/Reuse Options
+============================================================
+
+------------------------------------------------------------
+License
+------------------------------------------------------------
+CC BY 4.0
+
+
+============================================================
+Page 6: Files Metadata
+============================================================
+(follow on-screen instructions)
+
+
+============================================================
+Page 7: Manuscript Files
+============================================================
+
+------------------------------------------------------------
+*File Upload
+------------------------------------------------------------
+Upload: ~/claude/analysis/rokuyo-birth/output/manuscript.pdf
+
+
+============================================================
+Page 8: Submission Proofing
+============================================================
+Review all pages -> Approve Manuscript -> Submit
